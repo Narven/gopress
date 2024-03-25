@@ -1,9 +1,15 @@
 [package]
-name = "blogging"
+name = "gopress"
 version = "0.1.0"
 edition = "2021"
 authors = ["Pedro Luz <pedromsluz@gmail.com>"]
 publish = false
+description = "A better Wordpress"
+readme = "README.md"
+homepage = "https://github.com/Narven/gopress"
+repository = "https://github.com/Narven/gopress"
+keywords = ["blog", "website"]
+
 
 [workspace]
 members = [".", "entity", "migration"]
