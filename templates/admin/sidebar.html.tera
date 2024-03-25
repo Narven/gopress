@@ -1,0 +1,19 @@
+<aside class="z-20 hidden w-64 overflow-y-auto bg-white dark:bg-gray-800 md:block flex-shrink-0">
+  <div class="py-4 text-gray-500 dark:text-gray-400">
+    <a class="ml-6 text-lg font-bold text-gray-800 dark:text-gray-200" href="#">
+      GoPress
+    </a>
+    <ul class="mt-6">
+      {{ macros::sidebarmenu(label="Dashboard", link="/admin") }}
+    </ul>
+    <ul>
+      {{ macros::sidebarmenu(label="Posts", link="/admin/posts") }}
+      {{ macros::sidebarmenu(label="Media", link="/admin/media") }}
+      {{ macros::sidebarmenu(label="Pages", link="/admin/pages") }}
+      {{ macros::sidebarmenu(label="Comments", link="/admin/comments") }}
+      {{ macros::sidebarmenu(label="Appearance", link="/admin/appearance") }}
+      {{ macros::sidebarmenu(label="Plugins", link="/admin/plugins") }}
+      {{ macros::sidebarmenu(label="Users", link="/admin/users") }}
+    </ul>
+  </div>
+</aside>
